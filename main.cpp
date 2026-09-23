@@ -15,6 +15,13 @@ int main() {
     // 3. Ciclo: repetir CANTIDAD veces
     //    TODO: elige un ciclo (for o while) y usa un contador
     //    TODO: pedir el numero, leerlo y acumularlo en suma
+    while (contador < 5){
+        std::count << "Ingresa Un Número"; 
+        std::cin >> numero;
+        if (numero >=0)
+        suma+=numero; 
+        contador++;
+    }
 
     // 4. Salida
     //    TODO: mostrar el total
